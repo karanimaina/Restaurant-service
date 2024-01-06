@@ -9,7 +9,7 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
-public class Restaurant {
+public class Restaurant extends BaseEntity {
     private Boolean seatNumber;
     private String restaurantName;
     private MenuCatalogue menuCatalogue;
