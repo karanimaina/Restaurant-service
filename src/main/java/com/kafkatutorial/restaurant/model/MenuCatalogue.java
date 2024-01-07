@@ -17,6 +17,4 @@ public class MenuCatalogue extends  BaseEntity {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "order")
     private List<FoodItem> foodItems;
     private long userId;
-
-
 }

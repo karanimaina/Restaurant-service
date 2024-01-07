@@ -10,8 +10,8 @@ import lombok.*;
 @Setter
 @Builder
 public class Restaurant extends BaseEntity {
-    private Boolean seatNumber;
-    private String restaurantName;
+    private Boolean restaurantName;
+    private String location;
     private MenuCatalogue menuCatalogue;
 
 }
